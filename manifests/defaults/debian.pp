@@ -38,8 +38,8 @@ class logrotate::defaults::debian {
   }
 
   file { '/etc/logrotate.d/rsyslog':
-    ensure => file,
-    mode   => '0644',
+    ensure  => file,
+    mode    => '0644',
     content => template('logrotate/etc/logrotate.d/rsyslog'),
   }
 }
