@@ -1,6 +1,7 @@
 {
   "name": "skyscrapers-logrotate",
   "version": "1.1.1",
+  "author": "rodjek - Skyscrapers",
   "summary": "Manage logrotate",
   "license": "MIT",
   "source": "https://github.com/skyscrapers/puppet-logrotate",
